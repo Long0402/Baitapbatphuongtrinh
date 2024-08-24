@@ -6,9 +6,9 @@ public class Batphuongtrinh {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Nhap a: ");
-        float a = sc.nextFloat();
+        double a = sc.nextDouble();
         System.out.println("Nhap b: ");
-        float b = sc.nextFloat();
+        double b = sc.nextDouble();
         if(a==0&&b==0){
             System.out.println("Phuong trinh vo so nghiem");
         }
